@@ -46,31 +46,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Combo.cs" />
+    <Compile Include="Combo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Combo.Designer.cs">
       <DependentUpon>Combo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPick0.cs" />
+    <Compile Include="FrmPick0.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmPick0.Designer.cs">
       <DependentUpon>FrmPick0.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmradio.cs" />
+    <Compile Include="Frmradio.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Frmradio.Designer.cs">
       <DependentUpon>Frmradio.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRandom.cs" />
+    <Compile Include="frmRandom.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmRandom.Designer.cs">
       <DependentUpon>frmRandom.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrnCheck.cs" />
+    <Compile Include="FrnCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrnCheck.Designer.cs">
       <DependentUpon>FrnCheck.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrnRandomCombo.cs" />
+    <Compile Include="FrnRandomCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrnRandomCombo.Designer.cs">
       <DependentUpon>FrnRandomCombo.cs</DependentUpon>
     </Compile>
